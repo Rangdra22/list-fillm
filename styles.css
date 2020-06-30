@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+td {
+  text-align: center;
+  color: #6c757d;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+h1,
+h2,
+h3 {
+  color: #152c5b;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* header dan nav */
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ced4da;
+  position: sticky;
+  top: 0;
+  height: 90px;
+}
+
+nav p {
+  color: #152c5b;
+  font-size: 30px;
+  float: left;
+  font-family: 'Quicksand', sans-serif;
+}
+
+span {
+  color: #2446dd;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #152c5b;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a:active {
+  background-color: lightblue;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  float: right;
+  padding-top: 35px;
+}
+
+/* akhir header dan nav */
+
+/* jumbotron */
+.jumbotron {
+  background-color: #ffffff;
+  overflow: auto;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+.jumbotron .container img {
+  float: right;
+  width: 40%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px 70px 15px;
+}
+
+.jumbotron-content {
+  width: 40%;
+}
+
+.jumbotron-content h1 {
+  font-size: 45px;
+}
+
+.jumbotron-content p {
+  color: #b0b0b0;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #2446dd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 5px 6px 20px #888888;
+}
+
+button:hover {
+  background-color: rgb(28, 55, 177);
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* akhir dari jumbotron */
+
+/* content */
+#content {
+  float: left;
+  width: 75%;
+}
+
+#content article h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#content article section h2 {
+  font-size: 35px;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 400px;
+  background-size: cover;
+  object-position: center;
+}
+
+article section .wrapper {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article section .wrapper div {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+article section .wrapper div img {
+  border-radius: 5px 5px 0 0;
+}
+
+.wrapper section table {
+  border-top: 1px solid #b0b0b0;
+}
+
+.wrapper .card-content {
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#content article p {
+  cursor: pointer;
+}
+
+.card-content img {
+  height: 350px;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.socmed {
+  border-top: 1px solid black;
+  padding: 30px;
+  margin: 50px auto 10PX;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* akhir dari content */
+
+/* aside */
+
+.profile img {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px 5px 0 0;
+}
+
+aside section {
+  padding: 1px 20px 20px 20px;
+}
+
+.card-profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+aside h3 {
+  text-align: center;
+}
+
+aside th {
+  padding: 5px;
+  border-left: 2px solid #2446dd;
+}
+
+aside th:hover {
+  color: #2446dd;
+  cursor: pointer;
+}
+
+/* akhir dari aside */
+
+/* footer */
+footer {
+  padding: 20px;
+  border-top: 1px solid #ced4da;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #6c757d;
+  text-align: center;
+}
+
+/* akhir dari footer */
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+
+  .jumbotron-content {
+    width: 80%;
+  }
+
+  .jumbotron .container img {
+    width: 20%;
+    border-radius: 50%;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  nav p {
+    text-align: center;
+    padding-left: 170px;
+    font-size: 24px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  nav ul {
+    position: absolute;
+    right: 58px;
+    top: 10px;
+  }
+
+  .jumbotron .container img {
+
+    border-radius: 50%;
+    margin: 20px auto 0;
+  }
+
+  #content #artikel section .wrapper .card-content {
+    width: 100%;
+  }
+
+  aside {
+    margin-top: 20px;
+  }
+
+  #content article .socmed {
+    width: 50%;
+
+  }
+}
