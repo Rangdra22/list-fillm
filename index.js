@@ -50,7 +50,7 @@ img[6].setAttribute("src", "image/harry6.jpg");
 img[7].setAttribute("src", "image/harry7.jpg");
 img[8].setAttribute("src", "image/harry8.jpg");
 img[9].setAttribute("src", "image/harry9.jpg");
-img[10].setAttribute("src", "image/emoji.jpg");
+img[10].setAttribute("src", "image/emoji.png");
 
 const aside = document.querySelector("#biodata article section");
 aside.innerHTML = `<h3>Biodata Diri</h3>
