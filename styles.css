@@ -353,7 +353,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   nav ul li {
     display: none;
   }
